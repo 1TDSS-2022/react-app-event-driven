@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 export default function NovoValor() {
     
-    const [frase, setFrase] = useState('Escrever a frase nos quadros de cima')
+    const [frase, setFrase] = useState('Escrever a frase nos quadros de cima');
+    const [count, setCount] = useState(0);
     
     return (
         <div>
@@ -14,6 +15,10 @@ export default function NovoValor() {
                 <input type="text" name="txtFrase" onClick={(e) => setFrase(e.target.value)} />
 
                 <p>Motivação do dia : <span>{frase}</span></p>
+            
+                <p>Você clicou {count} vezes para se motivar</p>
+                <button onClick={() => setCount(count + 1)}>Clique aqui</button>
+            
             </div>
         </div>
     )
