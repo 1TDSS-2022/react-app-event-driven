@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Router } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NovoValor from "../components/novoValor/NovoValor";
 
 export default function MinhasRotas() {
@@ -7,7 +7,7 @@ export default function MinhasRotas() {
         <>
 
                 <Routes>
-                    <Router path='/' element={<NovoValor />}/>
+                    <Route path='/' element={<NovoValor />}/>
                 </Routes>
 
         </>

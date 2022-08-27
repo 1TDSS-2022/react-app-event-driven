@@ -5,10 +5,10 @@ import MinhasRotas from './routes/MinhasRotas';
 export default function App () {
     return (
         <div>
-            <Menu />
+            <Menu/>
             <h1>ESTUDO SOBRE EVENTOS EM ELEMENTOS DESESTRUTURADOS</h1>
             
-            <MinhasRotas />
+            <MinhasRotas/>
         </div>
     )
 }
