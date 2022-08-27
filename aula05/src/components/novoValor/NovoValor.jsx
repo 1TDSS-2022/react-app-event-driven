@@ -17,7 +17,7 @@ export default function NovoValor() {
                 <p>Motivação do dia : <span>{frase}</span></p>
             
                 <p>Você clicou {count} vezes para se motivar</p>
-                <button onClick={() => setCount(count + 1)}>Clique aqui</button>
+                <button onClick={() => setCount(count + 1)}>Clique aqui para se MOTIVAR</button>
             
             </div>
         </div>
