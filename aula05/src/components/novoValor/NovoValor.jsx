@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function NovoValor() {
     
-    const [frase, setFrase] = useState('')
+    const [frase, setFrase] = useState('Escrever a frase nos quadros de cima')
     
     return (
         <div>
