@@ -1,11 +1,17 @@
 import React from 'react';
+import Menu from './components/Menu/Menu';
+import NovoValor from './components/NovoValor/NovoValor';
+import MainRoutes from './Router/MainRoutes';
 
-// import { Container } from './styles';
 
 const App = () =>  {
   return(
     <>
-    <h1>Funcionando</h1>
+      <Menu/>
+      <h1>ESTUDOS SOBRE EVENTOS EM ELEMENTOS DESESTRUTURADOS</h1>
+      <MainRoutes/>
+
+  
     </>
   );
 }
